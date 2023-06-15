@@ -8,7 +8,8 @@ import { HOST } from "./constants";
 export function uploadAdapter(loader: FileLoader): UploadAdapter {
 	return {
 		upload: () => {
-			return new Promise((resolve, reject) => {
+			// eslint-disable-next-line @typescript-eslint/no-unused-vars
+			return new Promise((resolve, _reject) => {
 				(async () => {
 					const file = await loader.file;
 					const response = await axios.request({
