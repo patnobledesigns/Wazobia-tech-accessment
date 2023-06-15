@@ -16,7 +16,6 @@
   }
 }
 
-
 a {
   color: #129ed6;
   text-decoration: none;
@@ -35,5 +34,5 @@ a {
 }
 
 .ck.ck-editor__editable_inline {
-  padding: 0 30px;
+  padding: 0 30px !important;
 }
