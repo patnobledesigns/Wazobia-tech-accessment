@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  h4 {
+    @apply text-lg;
+  }
+}
+
+
+a {
+  color: #129ed6;
+  text-decoration: none;
+}
+.box {
+  width: 660px;
+  margin: 100px auto;
+}
+
+/* Custom Style */
+.ck-content {
+  min-height: 300px !important;
+}
+.ck-content p {
+  border-bottom: 0.5px solid #efefef;
+}
+
+.ck.ck-editor__editable_inline {
+  padding: 0 30px;
+}
